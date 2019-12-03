@@ -5,7 +5,15 @@
   "repository": "https://github.com/caiosenna/api-node2.git",
   "author": "Caio Senna <caiosenna20@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
   }
 }
