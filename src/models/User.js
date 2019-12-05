@@ -4,14 +4,17 @@ const UserSchema = new mongoose.Schema(
     {
         nome: {
             type: String,
-            required: true,
         },
-        cidade: {
+        email: {
             type: String,
+            required: true
         },
-        idade: {
-            type: Number,
+        cargo: {
+            type: String,
         }
+    },
+    {
+        timestamps: true
     }
 )
 
